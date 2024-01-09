@@ -7,6 +7,7 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+THEME = mytheme
 
 GITHUB_PAGES_BRANCH=main
 
@@ -16,7 +17,7 @@ ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
 
-RELATIVE ?= 0
+RELATIVE ?= 0 
 ifeq ($(RELATIVE), 1)
 	PELICANOPTS += --relative-urls
 endif
@@ -49,6 +50,9 @@ help:
 
 html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
+
+#theme :
+#	"$(PELICAN)"-themes -s "$(THEME)"
 
 clean:
 	[ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)"
