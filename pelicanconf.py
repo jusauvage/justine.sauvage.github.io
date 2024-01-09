@@ -1,6 +1,6 @@
 AUTHOR = 'Justine Sauvage'
 SITENAME = 'Justine Sauvage'
-SITEURL = ''
+SITEURL = 'hellowrold'
 
 PATH = 'content'
 
@@ -20,12 +20,17 @@ THEME = 'mytheme'
 
 DEFAULT_DATE = 'fs'
 
+# Page structure
 ARCHIVES_SAVE_AS = ""
 AUTHOR_SAVE_AS = ""
 AUTHORS_SAVE_AS = ""
 CATEGORY_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
 TAGS_SAVE_AS = ""
+
+TEMPLATE_PAGES = {
+    "index.html": "index.html",
+}
 
 
 # Blogroll

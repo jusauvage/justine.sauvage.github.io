@@ -307,7 +307,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 /*
 	About
 *****************/
-#about {
+/*#about {
 	background: #fff;
 	font-style: normal;
 	margin-bottom: 2em;
@@ -327,7 +327,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 #about .url:link, #about .url:visited {text-decoration: none;}
 
-#about .bio {float: right; width: 500px;}
+#about .bio {float: right; width: 500px;}*/
 
 /*
 	Footer
