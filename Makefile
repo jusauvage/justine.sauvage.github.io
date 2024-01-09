@@ -12,7 +12,7 @@ THEME = mytheme
 GITHUB_PAGES_BRANCH=main
 
 
-DEBUG ?= 0
+DEBUG ?= 1
 ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
