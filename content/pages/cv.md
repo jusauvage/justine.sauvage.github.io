@@ -1,5 +1,5 @@
 title: CV
-category: Home
+category: CV
 
 
 Here should be my full CV
