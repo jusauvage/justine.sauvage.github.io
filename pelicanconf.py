@@ -28,9 +28,6 @@ CATEGORY_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
 TAGS_SAVE_AS = ""
 
-TEMPLATE_PAGES = {
-    "index.html": "index.html",
-}
 
 
 # Blogroll
