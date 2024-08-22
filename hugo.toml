@@ -1,1 +1,3 @@
+baseURL = 'https://justine.sauvage.github.io/'
+title = 'Justine Sauvage'
 theme = 'ananke'
